@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    <link rel="stylesheet" href="static/style.css">
+
+    <title>AllianceOfStrategicInfluence</title>
+</head>
+<body class="container">
+    <main>
+                <div class="sticky">
+        <div class="sticky is-size-2" style="float: left; width: 70%">
+            Welcome to ASI's Site
+            <p class="is-size-5">
+                <a href="/">Home</a> &nbsp; &nbsp; &nbsp; <a href="/about">About</a>
+            </p>
+        </div>
+        <div class="sticky has-text-right" style="float: right; width: 30%">
+            <img src="/static/Logo.png" width=80px>
+        </div>
+        </div>
+        <p class="is-size-7">&nbsp</p>
+        <h2 class="has-text-centered is-size-4">Students helping students helping you</h2>
+        <h2>Our Mission</h2>
+        <p>The Alliance of Strategic Influence exists to unite visionary leaders, experts, and changemakers who shape the decisions that define our future. We build networks of strategic counsel, foresight, and coordinated action — empowering our members to navigate complexity, anticipate emerging challenges, and drive meaningful outcomes across geopolitics, technology, economics, and society. Through disciplined analysis, trusted collaboration, and quiet influence, we advance stability, innovation, and human progress where it matters most.
+</p>
+        <br>
+        <br>
+        <div style="float: left; width: 50%">
+            <h2>Donate</h2>
+            <a href="https://gofund.me/e5486df03"><button class="button is-link is-outlined">GoFundMe</button></a>
+            <br><br><br><br><br>
+        </div>
+        <div style="float: right; width: 50%">
+            <h2>How to Join</h2>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSehVxclA3s892Q8-2LtksNjomQ1xiwSv-UNO0JxZTo7FbRC0w/viewform"><button class="button is-link is-outlined">Private Interest Meeting</button></a>
+            <br>
+            <br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNKUpoZGUrXWznxB0mSxn1cRR45SMepxYqVTyKPdjSNlSTWg/viewform"><button class="button is-link is-outlined">Sign up!</button></a>
+            <br><br>
+        </div>
+        <p>&nbsp</p>
+        {%for i in range(10)%}
+            <br>
+        {%endfor%}
+
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <p class="is-size-3">Useful Information</p>
+                    <br>
+                    <p><u><a class="is-size-5 gold" href="mailto:asi.org.team@gmail.com">Shoot our team an Email!</a></u></p>
+                    <br>
+                    <p><u><a class="is-size-5 gold" href="mailto:asi.org.team.technology@gmail.com">Contact Tech Support</a></u></p>
+                    <br>
+                    <p><u><a class="is-size-5 gold" href="https://www.instagram.com/asi.national?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Check out our Instagram</a></u></p>
+                </div>
+                <div class="column has-text-centered">
+                        <img src="/static/Logo.png" width=300px>
+                    </div>
+                <div class="column has-text-centered">
+                    <p class="is-size-3">Useful Links</p>
+                                        <br>
+                    <p><u><a class="is-size-5 gold" href="mailto:asi.org.team@gmail.com">Join</a></u></p>
+                    <br>
+                    <p><u><a class="is-size-5 gold" href="mailto:asi.org.team.technology@gmail.com">Private Interest Meeting</a></u></p>
+                    <br>
+                    <p><u><a class="is-size-5 gold" href="https://www.instagram.com/asi.national?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">GoFundMe</a></u></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</html>

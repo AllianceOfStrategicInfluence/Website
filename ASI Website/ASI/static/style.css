@@ -1,0 +1,40 @@
+@import "bulma/css/bulma.min.css";
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: #B88E3C;
+}
+
+.gold {
+    color:#B88E3C;
+}
+
+h1{
+    font-size:55px;
+}
+
+h2{
+    font-size:30px;
+}
+
+html{
+    background-color: #0C121E;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #000917;
+    z-index: 5;
+}
+
+.content-container {
+  width: 100%;             /* Fills small screens entirely */
+  max-width: 1200px;       /* Caps growth on large monitors */
+  margin-left: auto;       /* Centers the container horizontally */
+  margin-right: auto;      /* Centers the container horizontally */
+  padding-left: 20px;      /* Prevents content from hitting screen edges */
+  padding-right: 20px;     /* Prevents content from hitting screen edges */
+  box-sizing: border-box;  /* Includes padding in the total width calculation */
+}
+
